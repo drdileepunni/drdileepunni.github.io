@@ -1,6 +1,8 @@
 Dr. Dileep C Unnikrishnan
 ============
 
+![](images/DSC_6621.jpg)
+
 About me
 ------------
 
