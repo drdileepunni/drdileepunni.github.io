@@ -1,157 +1,44 @@
 Dr. Dileep C Unnikrishnan
 ============
 
-I am currently working as the Technical lead of Data science and analytics at Cloudphysician Healthcare. I did my MD in Internal Medicine in Rutgers Health, NJ and one year of research in Pulmonary and Critical care medicine at Johns Hopkins University before returning to India to join Cloudphysician.
-
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
-
-  * this one
-  * that one
-  * the other one
-
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
-
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
-
-
-
-An h2 header
+About me
 ------------
 
-Here's a numbered list:
+I am currently working as the Technical lead of Data science and analytics at [Cloudphysician Healthcare](https://cloudphysician.net/). 
+I did my MD in Internal Medicine in Rutgers Health, NJ and one year of research in Pulmonary and Critical 
+care medicine at Johns Hopkins University before returning to India to join Cloudphysician.
 
- 1. first item
- 2. second item
- 3. third item
+I started my research stint in the field of sleep and metabolism while at Hopkins and have authored one of the most cited 
+papers on Inflammation in sleep apnea. Since joining my current organization, I have been focusing on 
+leveraging data in tacking the inefficiencies in healthcare ecosystem thereby empowering both the patients and
+providers.
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+I currently lead a team of developers, analysts and ML engineers to add smart features to the healthcare delivery
+platform of the company called Radar. The teams current efforts are focused on 
+* Improving healthcare provider workflow efficiency
+* Providing clinical and operational insights to the providers/managers
+* Creating large community/state/national level repositories of healthcare data
 
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+Additionally team works closely with the clinical research team in the company headed by [Dr. Carl Britto](https://www.linkedin.com/in/carl-britto-77399650/) 
+and researchers like [Dr. Subodha Kumar](https://en.wikipedia.org/wiki/Subodha_Kumar) to publish various clinical and 
+operational research papers.
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
-
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
-
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
-
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
-~~~
+Team Projects
+------------
+1. Developed a smart note taking tool for healthcare providers that generates admission and progress notes in natural 
+language by parsing the patient's health records. This tool is currently being using by hundreds of healthcare providers in their 
+daily workflow and has demonstrably improved their efficiency. 
+2. Created a database similar to [MIMIC III](https://physionet.org/content/mimiciii-demo/1.4/) database that currently harbors high quality 
+data of over 35,000 ICU admissions. This is the largest dataset of its kind in the country and provide periodic clinical and operational 
+insights to over fourty partner ICUs through dashboards.
+3. Currently developing model to predict clinical deterioration hours in advance among patients in the ICU using various monitored clinical 
+parameters. The idea for this has been granted a patent by Govt. of India. 
 
 
 
-### An h3 header ###
 
-Now a nested list:
 
- 1. First, get these ingredients:
 
-      * carrots
-      * celery
-      * lentils
 
- 2. Boil some water.
 
- 3. Dump everything in the pot and follow
-    this algorithm:
 
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
-
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
-
-[^1]: Footnote text goes here.
-
-Tables can look like this:
-
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
-
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
-
---------  -----------------------
-keyword   text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
-
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
-
-A horizontal rule follows.
-
-***
-
-Here's a definition list:
-
-apples
-  : Good for making applesauce.
-oranges
-  : Citrus!
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term/definition pair to spread things out more.)
-
-Here's a "line block":
-
-| Line one
-|   Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](https://drive.google.com/file/d/1jX27afoOJ7brHxgglZql5WfFhYSL3nv7/view?usp=sharing "An exemplary image")
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
